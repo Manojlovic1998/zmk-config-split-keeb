@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
-  Default Layer: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LCTRL, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, Lower Layer,
-    SPACE, RET, Raise Layer, RALT]
+  Default Layer: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LSHFT, A, S, D, F, G, H, J, K, L, ;, '&caps_word', LCTRL, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, Lower
+      Layer, SPACE, RET, Raise Layer, RALT]
   Lower Layer:
   - TAB
   - '1'
@@ -25,20 +25,20 @@ layers:
   - DOWN
   - UP
   - RIGHT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '|'
+  - '?'
+  - LCTRL
+  - '{'
+  - '}'
+  - '{'
+  - '}'
+  - ;
+  - (
+  - )
+  - '#'
+  - '*'
+  - '&'
+  - '!'
   - LGUI
   - {type: held}
   - SPACE
@@ -58,24 +58,24 @@ layers:
   - (
   - )
   - BSPC
-  - LCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LSHIFT
+  - '-'
+  - '='
+  - '"'
+  - <
+  - '>'
   - '-'
   - '='
   - '['
   - ']'
   - \
   - '`'
-  - LSHFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTRL
+  - '{'
+  - '}'
+  - '['
+  - ']'
+  - ;
   - _
   - +
   - '{'
