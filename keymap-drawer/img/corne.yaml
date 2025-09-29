@@ -14,8 +14,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BSPC
   - BT CLR
+  - LSHFT
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
