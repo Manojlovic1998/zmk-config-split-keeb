@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne}
 layers:
-  Default Layer: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LSHFT, A, S, D, F, G, H, J, K, L, ;, '&caps_word', LCTRL, Z, X, C, V, B, N, M, ',', ., /, ESC, LGUI, Lower
-      Layer, SPACE, RET, Raise Layer, RALT]
+  Default Layer: [TAB, Q, W, E, R, T, Y, U, I, O, P, BSPC, LSHFT, A, S, D, F, G, H, J, K, L, ;, '&caps_word', LCTRL, Z, X, C, V, B, N, M, ',', ., /, ESC, LEFT ALT,
+    Lower Layer, SPACE, RET, Raise Layer, RGUI]
   Lower Layer:
   - TAB
   - '1'
@@ -15,7 +15,7 @@ layers:
   - '9'
   - '0'
   - BT CLR
-  - LSHFT
+  - BT CLR ALL
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
   - {t: BT, h: '2'}
@@ -39,12 +39,12 @@ layers:
   - '*'
   - '&'
   - '!'
-  - LGUI
+  - {t: LEFT ALT, type: held}
   - {type: held}
   - SPACE
   - RET
   - {t: ▽, type: trans}
-  - RALT
+  - RGUI
   Raise Layer:
   - TAB
   - '!'
@@ -82,9 +82,12 @@ layers:
   - '}'
   - '|'
   - '~'
-  - LGUI
+  - LEFT ALT
   - {t: ▽, type: trans}
   - SPACE
   - RET
   - {type: held}
-  - RALT
+  - RGUI
+combos:
+- p: [36, 37]
+  k: Lower Layer
